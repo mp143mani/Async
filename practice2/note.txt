@@ -10,3 +10,23 @@ Promise:
      6. To access the content inside the promise/to handle the promise
      7.   we use .then() for resolved state
      8.   we use .catch() for rejected state(error handling)
+
+
+
+
+promise.all([]):
+     1.it takes array of promise and returns the promises of the fulfilled state.
+     2.disadvantages 1 is valiable.--if any false a fuction, false fuction is show in console, not visible true function in console.
+     3.How to handle multiple promise simualtenously and ihave to execute the promise at a time :
+
+promise.allSetteled():
+     1.It takes array of promise and it returns both.
+     2.promise which are resolved.
+     3.AS well promises which are rejected
+
+
+ chain of promise:
+
+     a.advantages:-
+                      1.  It holds the result ofasync ops 
+                      2. It is possible to create a set of dependent operation, dependent operation is the result of first will be given as a input  to second  

@@ -37,4 +37,13 @@ foo().then((data)=>console.log(data))
 
 
 
-//example  4
+//example  4  multiple asynchronous execution 
+function foo(num){
+    return new Promise((resolve,reject)=>{
+      setTimeout(()=>resolve(num*2),1000);
+      setTimeout(()=>rjected(num*2+"this isss rejected"),3000);
+    });
+}
+// console.log(foo());
+foo(5).then((data)=>console.log(data))
+.catch((err)=>console.log(err));
