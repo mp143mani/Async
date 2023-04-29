@@ -1,0 +1,12 @@
+Promise:
+     1. A Promise is a object that holds the result of asynchronous operation
+     2. syntax:  
+                var p= new promise();
+     3.Three state available - A.pending   B.fullfilled  C.rejected
+
+     4. resolve: for the fullfilled state.
+     5.rejected: for the rejected state.
+
+     6. To access the content inside the promise/to handle the promise
+     7.   we use .then() for resolved state
+     8.   we use .catch() for rejected state(error handling)
