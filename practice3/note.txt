@@ -9,5 +9,5 @@ Application of promise:
 
            3.The output of above step is a promise, inside the promise the data is in readable stream 
            4. To convert readable stream to the packets of data we have to convert  it into object by using .json method.
-           5. The output of .json() method is a promise,so to handle promise we have one more  .then()
+           5. The output of .json() method is a promise,so to handle promise we have one more  .then() This will give final result.
            6.                     
