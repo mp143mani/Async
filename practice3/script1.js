@@ -29,7 +29,7 @@ var res=fetch("https://restcountries.com/v3.1/all")
     for(var i=0;i<data1.length;i++){
         console.log(`Country name:${data1[i].name.common} Capital:${data1[i].capital}`);
         console.log(`Country flag:${data1[i].name.common} Flag:${data1[i].flags.svg}`);
-        console.log(`Country symbol:${data1[i].Currencies.common} Currencies:${data1[i].symbol}`);
+        console.log(`Country independent:${data1[i].name.common} independent:${data1[i].independent}`);
     }
 });
 console.log("countryname"+data.name)

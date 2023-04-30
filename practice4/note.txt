@@ -1,0 +1,31 @@
+1.Async and await
+examples
+open weather map api
+Async and await:They are syntatic sugar way of writing the promises
+
+Syntax:async function functionname(){
+
+}
+An async function always returns a promises
+since it is returing a promise we will be using await keyword inside  the promise
+await:helps us to wait for a while
+
+Syntax:async function functionname(){
+var value=await promise;
+}
+
+
+
+await is alternative .then()
+
+
+2.Try-catch statement:----error handling statement.
+they are similar to .catch  in fetch 
+try{
+    consist of testingg codes 
+}
+catch{
+    rejected state 
+}
+
+
