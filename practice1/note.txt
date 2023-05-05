@@ -15,7 +15,8 @@ Module = 4
 
                                B..Asynchronous-- time consuming( at a time)
 
-                            1.Inbuilt Async Function:   SetTimeOut()  ---- It takes 2 parameters and one if fuction,second is time in milliseconds
+                            1.Inbuilt Async Function:   SetTimeOut()  ---- It takes 2 parameters 
+                            and one if fuction,second is time in milliseconds
 
 
 ============================================================================================================================================================
@@ -25,15 +26,19 @@ Module = 4
             call stack -- A call stack keeps the track of the function to be executed and it executed here.
             web API    -- here the time consuming operation are executed here simultaneosuly.
 
-            callback queue/Event queue -- FCFS(first come first serve), FIFO(First in First Out {THis is the place where Async code waits for the execution})
+            callback queue/Event queue -- FCFS(first come first serve), FIFO(First in First Out 
+            {THis is the place where Async code waits for the execution})
                                           Event queue will work only if call stack is empty
             
-            Event loop: -- It is between call stack and call back queue, The main operation is to check whether call stack is empty or not,
-                            if it is empty then, it will push the code from the event loop to the call stack and completes the execution.
+            Event loop: -- It is between call stack and call back queue, The main operation
+                              is to check whether call stack is empty or not,
+                            if it is empty then, it will push the code from the event loop to 
+                            the call stack and completes the execution.
 
 ====================================================================================================================================================
                                  
-                                 call back -- A function which is passed as a parameter to the another function then that the fuction then called as the call back fuction.
+                                 call back -- A function which is passed as a parameter to the another 
+                                            function then that the fuction then called as the call back fuction.
 
                                  fuction foo(bar){
 

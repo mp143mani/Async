@@ -16,7 +16,8 @@ Promise:
 
 promise.all([]):
      1.it takes array of promise and returns the promises of the fulfilled state.
-     2.disadvantages 1 is valiable.--if any false a fuction, false fuction is show in console, not visible true function in console.
+     2.disadvantages 1 is valiable.--if any false a fuction, false fuction is show in console, not 
+        visible true function in console.
      3.How to handle multiple promise simualtenously and ihave to execute the promise at a time :
 
 promise.allSetteled():
@@ -29,4 +30,5 @@ promise.allSetteled():
 
      a.advantages:-
                       1.  It holds the result ofasync ops 
-                      2. It is possible to create a set of dependent operation, dependent operation is the result of first will be given as a input  to second  
+                      2. It is possible to create a set of dependent operation, dependent operation 
+                         is the result of first will be given as a input  to second  
