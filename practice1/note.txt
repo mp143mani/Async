@@ -1,5 +1,8 @@
 Module = 4
 
+
+javascript is default Synchronous
+
 0.callstack
 1.callback
 2.promise
@@ -43,7 +46,7 @@ Module = 4
                                  fuction foo(bar){
 
                                  }
-                                 fuction bar(bar){
+                                 fuction bar(){
                                     
                                  }
 

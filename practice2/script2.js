@@ -40,7 +40,9 @@ var p3=new Promise((resolve,reject)=>{
         },3000);
     }
 });
-Promise.allSettled([p1,p2,p3]).then((data)=>console.log(data)).catch((error)=>console.log(error));
+Promise.allSettled([p1,p2,p3])
+.then((data)=>console.log(data))
+.catch((error)=>console.log(error));
 
 
 
