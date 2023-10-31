@@ -25,27 +25,30 @@
 
 
 
-// //example  3
+//example  3
 // function foo(){
 //     return new Promise((resolve,reject)=>{
+//          reject("this is rejected/failed")
 //         resolve("this is resolved");
-//         //  reject("this is rejected/failed")
 //     });
 // }
-// // console.log(foo());
+// console.log(foo());  //  return the promise object
 // foo().then((data)=>console.log(data))
 // .catch((err)=>console.log(err));
+
+
+//new -- mean that object
 
 
 
 //example  4  multiple asynchronous execution 
 function foo(num) {
     return new Promise((resolve, reject) => {
-      setTimeout(() => resolve(num * 2), 1000);
-      setTimeout(() => reject(num * 2 + " this is rejected"), 3000);
+      setTimeout(() => resolve(num * 2), 4000);
+      setTimeout(() => reject(num * 2 + " this is rejected"), 1000);
     });
   }
-  console.log(foo(5));
+  console.log(foo());
   foo(5)
     .then((data) => console.log(data))
     .catch((err) => console.log(err));
