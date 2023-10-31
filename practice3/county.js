@@ -23,6 +23,7 @@ function foo(data1){
       </div>
       </div>
       `;
+     
       document.body.append(container);
     }
 }
