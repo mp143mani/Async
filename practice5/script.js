@@ -8,9 +8,7 @@ async function getdata() {
     wd(name, ...latlon); //wd(13.33,45.3)//... mean by  speard operation, because this is  result is should be an array//
   }
 }
-
-getdata();
-
+getdata();      
 //to pass the first function data into  second function
 async function wd(name, lat, lon) {
   let res1 = await fetch(

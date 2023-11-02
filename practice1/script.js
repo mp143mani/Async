@@ -53,7 +53,7 @@ console.log(res);
 //setTimeout(  /* this is an call back function  ()=>console.log("huguidgwuid")  */  ,3800);
 
 
-//exam ple 3
+//exam ple 3 
 // Define a function `fo` that takes two arguments: `str` and `cb`
 function fo(str, cb) {
     // Log a message to the console
@@ -71,7 +71,7 @@ function fo(str, cb) {
   
   // Call the `fo` function and pass the string "vaa nanba" as the first argument
   // and the `ar` function as the second argument
-  console.log(fo("vaa nanba", ar));
+  (fo("vaa nanba", ar));
   
 
 //example 4
